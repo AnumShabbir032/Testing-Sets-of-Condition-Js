@@ -51,11 +51,11 @@ else{
 /* Condition-4*/
 function myFunction4() {
 let name = prompt('What is your name?', '...');
-if( name == 'Asra' ){
-    document.getElementById("demo4").innerHTML = "Happy Brithday in Advance" + " " + name;
+if( name == 'anum' ){
+    document.getElementById("demo4").innerHTML = "Happy Brithday in Advance" + " " + "Asra";
 }
 else{
-    document.getElementById("demo4").innerHTML = "Good Morning" + " " + name;
+    document.getElementById("demo4").innerHTML = null;
 }
 }
 /* EndCondition-4*/
