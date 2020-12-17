@@ -4,19 +4,17 @@ function myFunction() {
     element.classList.toggle("dark-mode");
 }
 
-
 /* Condition-1 */
-// function myFunction1() {
-// let i = prompt("Check the number is divisible by 3 or not.");
-// let i = number % 3 == 0;
-// if (i % 3 == 0) {
-//     // document.getElementById("demo1").innerHTML = "divisible by 3";
-// } 
-// else {
-//     document.getElementById("demo1").innerHTML = "divisible not by 3";
-// } 
+function myFunction1() {
+let i = prompt("Check the number is divisible by 3 or not."); 
 
-// }
+if (i%3 === 0){
+    document.getElementById("demo1").innerHTML = "its divisible by 3";
+}
+else{
+    document.getElementById("demo1").innerHTML = "its not divisible by 3";
+}
+}
 /* End Condition-1*/
 
 /* Condition-2 */
@@ -29,7 +27,6 @@ else {
      document.getElementById("demo2").innerHTML = "Odd";
 }
 }
-
 /* End Condition-2*/
 
 /* Condition-3*/
@@ -59,8 +56,6 @@ else{
 }
 }
 /* EndCondition-4*/
-
-
 
 
 
